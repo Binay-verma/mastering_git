@@ -10,10 +10,10 @@ jobs:
 
   steps:
     - name: Checkout code
-      uses: actions/Checkout@y5
+      uses: actions/Checkout@v5
 
     - name: Set up Node.js
-      uses: actions/setup-node@y3
+      uses: actions/setup-node@v3
       with:
         node-version: 16
 
